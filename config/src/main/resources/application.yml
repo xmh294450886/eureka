@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xmh294450886/springcloud-config.git
+      label: master
+server:
+  port: 7755
